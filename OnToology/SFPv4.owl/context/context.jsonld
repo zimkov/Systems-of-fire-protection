@@ -1,0 +1,211 @@
+{
+  "@context" : {
+    "ширинаПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#ширинаПомещения"
+    },
+    "имеетТипПожарногоИзвещателя" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетТипПожарногоИзвещателя",
+      "@type" : "@id"
+    },
+    "Определяет" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Определяет",
+      "@type" : "@id"
+    },
+    "Система_противопожарной_защиты" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Система_противопожарной_защиты"
+    },
+    "Масса" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Масса"
+    },
+    "расчетнаяТемператураВоздухаПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#расчетнаяТемператураВоздухаПомещения"
+    },
+    "зависитОт" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#зависитОт",
+      "@type" : "@id"
+    },
+    "НКПР" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#НКПР"
+    },
+    "КонстантаАнтуаннаB" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#КонстантаАнтуаннаB"
+    },
+    "Тип_огнетушащего_вещества" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Тип_огнетушащего_вещества"
+    },
+    "КонстантаАнтуаннаCa" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#КонстантаАнтуаннаCa"
+    },
+    "Тип_назначения_защищаемого_помещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Тип_назначения_защищаемого_помещения"
+    },
+    "МаксимальноеДавлениеВзрыва" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#МаксимальноеДавлениеВзрыва"
+    },
+    "длинаПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#длинаПомещения"
+    },
+    "Вещество" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Вещество"
+    },
+    "Группа_помещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Группа_помещения"
+    },
+    "имеетСпособОповещания" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетСпособОповещания",
+      "@type" : "@id"
+    },
+    "состоитИз" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#состоитИз",
+      "@type" : "@id"
+    },
+    "описаниеПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#описаниеПомещения"
+    },
+    "технико-экономическиеПоказателиПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#технико-экономическиеПоказателиПомещения"
+    },
+    "НизшаяТеплотаСгорания" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#НизшаяТеплотаСгорания"
+    },
+    "КонстантаАнтуаннаА" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#КонстантаАнтуаннаА"
+    },
+    "типВещества" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#типВещества",
+      "@type" : "@id"
+    },
+    "площадьПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#площадьПомещения"
+    },
+    "площадьХраненияПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#площадьХраненияПомещения"
+    },
+    "Тип_пожарного_извещателя" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Тип_пожарного_извещателя"
+    },
+    "КоэффициентВ" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#КоэффициентВ"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "NamedIndividual" : {
+      "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    "высотаПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#высотаПомещения"
+    },
+    "высотаХраненияПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#высотаХраненияПомещения"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Способ_оповещания" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Способ_оповещания"
+    },
+    "Горючая_нагрузка" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Горючая_нагрузка"
+    },
+    "имеетКатегорию" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетКатегорию",
+      "@type" : "@id"
+    },
+    "Определяется" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Определяется",
+      "@type" : "@id"
+    },
+    "АУПТ" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#АУПТ"
+    },
+    "ВПВ" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#ВПВ"
+    },
+    "Использует" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Использует",
+      "@type" : "@id"
+    },
+    "Проект_пожарной_безопасности" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Проект_пожарной_безопасности"
+    },
+    "являетсяЧастью" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#являетсяЧастью",
+      "@type" : "@id"
+    },
+    "МолярнаяМасса" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#МолярнаяМасса"
+    },
+    "Помещение" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Помещение"
+    },
+    "Нормативный_акт" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Нормативный_акт"
+    },
+    "параметрыВещества" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#параметрыВещества"
+    },
+    "АПС" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#АПС"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "имеетТипПомещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетТипПомещения",
+      "@type" : "@id"
+    },
+    "имеетТипОгнетущащегоВещества" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетТипОгнетущащегоВещества",
+      "@type" : "@id"
+    },
+    "Объект_защиты" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Объект_защиты"
+    },
+    "Документ" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Документ"
+    },
+    "имеетСистемуЗащиты" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетСистемуЗащиты",
+      "@type" : "@id"
+    },
+    "Категория_вещества" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Категория_вещества"
+    },
+    "ТемператураВспышки" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#ТемператураВспышки"
+    },
+    "ПлощадьРазлива1гоЛЖидкости" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#ПлощадьРазлива1гоЛЖидкости"
+    },
+    "desription" : {
+      "@id" : "http://purl.org/dc/elements/1.1/desription"
+    },
+    "Категория_наружных_установок" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Категория_наружных_установок"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Категория_помещения" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Категория_помещения"
+    },
+    "qКр" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#qКр"
+    },
+    "СОУЭ" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#СОУЭ"
+    },
+    "имеетГорючуюНагрузку" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#имеетГорючуюНагрузку",
+      "@type" : "@id"
+    },
+    "Плотность" : {
+      "@id" : "http://www.semanticweb.org/julia/ontologies/2019/0/systems-of-fire-protection#Плотность"
+    }
+  }
+}
