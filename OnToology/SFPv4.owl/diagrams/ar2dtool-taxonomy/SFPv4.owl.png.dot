@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Объект_защиты" "base:Нормативный_акт" "base:Вещество" "base:СОУЭ" "base:Система_противопожарной_защиты" "base:ВПВ" "base:Проект_пожарной_безопасности" "18f2e85b:184e84af858:-7ffa" "base:Помещение" "base:АПС" "base:Документ" "base:АУПТ" ; /*classes style*/
+	"base:СОУЭ" -> "base:Система_противопожарной_защиты" [ label = "rdfs:subClassOf" ];
+	"base:Помещение" -> "base:Объект_защиты" [ label = "rdfs:subClassOf" ];
+	"base:Вещество" -> "18f2e85b:184e84af858:-7ffa" [ label = "rdfs:subClassOf" ];
+	"base:АУПТ" -> "base:Система_противопожарной_защиты" [ label = "rdfs:subClassOf" ];
+	"base:Проект_пожарной_безопасности" -> "base:Документ" [ label = "rdfs:subClassOf" ];
+	"base:АПС" -> "base:Система_противопожарной_защиты" [ label = "rdfs:subClassOf" ];
+	"base:ВПВ" -> "base:Система_противопожарной_защиты" [ label = "rdfs:subClassOf" ];
+	"base:Нормативный_акт" -> "base:Документ" [ label = "rdfs:subClassOf" ];
+
+}
